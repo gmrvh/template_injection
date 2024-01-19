@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>User Agent:</h1>
-    <p>{{reqData.FetchServerInfo("cat /etc/os-release | grep PRETTY_NAME | cut -d '\"' -f 2")}}</p>
+    <p>{{FetchServerInfo "ls -l" }}</p>
 </body>
 </html>
