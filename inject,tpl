@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>User Agent:</h1>
-    <p>{{.FetchServerInfo "ls -l" }}</p>
+    <p>{{.FetchServerInfo(hostname}}</p>
 </body>
 </html>
